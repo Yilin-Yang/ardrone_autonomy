@@ -25,6 +25,8 @@ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSI
 #ifndef ARDRONE_AUTONOMY_TELEOP_TWIST_H
 #define ARDRONE_AUTONOMY_TELEOP_TWIST_H
 
+#include <algorithm>
+
 #include <ardrone_autonomy/ardrone_sdk.h>
 #include <geometry_msgs/Twist.h>
 #include <std_msgs/Empty.h>
